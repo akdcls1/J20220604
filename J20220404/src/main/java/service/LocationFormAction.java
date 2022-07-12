@@ -29,8 +29,8 @@ public class LocationFormAction implements CommandProcess {
 			throws ServletException, IOException {
 		SportsDao sd = SportsDao.getInstance();
 		System.out.println("LocationFormAction Service Start...");
-		String clientId = "ctgqbpmeoz ";  //clientId 
-        String clientSecret = "jWdzAAaCrklcAOzUDBT02yUlbUDo6yEHvWbyECvh ";  //clientSecret 
+		String clientId = "네이버 API를 사용하기 위한 클라이언트 ID 입력";  //clientId 
+        String clientSecret = "네이버 API를 사용하기 위한 클라이언트 비밀번호 입력";  //clientSecret 
 		// 게시판 갯수
         String user_id =(String)request.getSession().getAttribute("user_id");
         String admin_id = "";
